@@ -1,10 +1,34 @@
+<<<<<<< HEAD
+# Python cache
 __pycache__/
+*.py[codz]
+
+# Jupyter
 .ipynb_checkpoints/
+
+# Environments / secrets
 .env
-*.csv
-*.zip
-*.pkl
-*.h5
-*.pt
-data/
-Data/
+.envrc
+.venv
+env/
+venv/
+
+# Build / packaging junk
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS / editor noise
+.pdm-python
+.pixi
+.mypy_cache/
+.ruff_cache/
+.cursorignore
+.cursorindexingignore
+>>>>>>> e602d1589d96827facc17267c31d684c2443b969
